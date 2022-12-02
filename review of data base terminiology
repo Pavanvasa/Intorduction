@@ -18,3 +18,6 @@ Composite Key: A composite key is a candidate key that consists of two or more a
 Candidate key: Candidate key is a single key or a group of multiple keys that uniquely identify rows in a table. 
                A Candidate key is a subset of Super keys and is devoid of any unnecessary attributes that are not important for uniquely identifying tuples. 
                The value for the Candidate key is unique and non-null for all tuples.  
+ ACID Properties :RDBMS follows the concepts of Atomicity, Consistency, Isolation, and Durability (normally shortened as ACID). 
+               These concepts are applied on transactions, which manipulate data in a database. 
+               ACID properties help the database stay healthy in multi-transactional environments and in case of failure.
